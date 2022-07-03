@@ -1,0 +1,139 @@
+.interested
+{
+   
+     margin-top: 120px !important;
+   // margin-top: 72.53px !important;
+    transform: translateY(50%);
+    padding: 84px;
+    background-color: #2F2E41;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    &_title
+    {
+        max-width: 346px;
+        color: white;
+        font-weight: 700;
+        font-size: 50px;
+        line-height:calc(56/50);
+    }
+    &_btn
+    {
+        display: inline-block;
+        padding: 16px 56.5px;
+        background-color: #6C63FF;
+        font-weight: 700;
+        font-size: 16px;
+        font-family: $font--text;
+        color: white;
+    }
+}
+
+
+.footer
+{
+     padding-bottom: 40.13px;
+     background: rgba(236, 235, 255, 0.6);
+     &_main
+     {
+         flex-wrap: wrap;
+         padding-top: 244px;
+         max-width: 900px;
+         margin: 0 auto;
+         justify-content: space-between;
+         display: flex;
+         
+     }
+
+     &_box
+    {
+        &--title
+        {
+           
+           font-family: $font--text;
+           font-weight: 600;
+           font-size: 18px;
+           color: $color--title;
+           
+        }
+        &--item
+        {
+            margin-top: 20px;
+        }
+
+    }
+
+    &_list
+    {
+        font-family: $font--text;
+        color: $color--text;
+        margin-top: 8px;
+    }
+
+    &_bottom
+    {
+        margin-top: 84.03px;
+        display: flex;
+        justify-content: space-between;
+        &--text
+        {
+            font-size: 12px;
+            color: $color--text;
+        }
+    }
+   
+}
+.interested_btn
+{
+    display: block;
+}
+.footer-d
+{
+    display: flex;
+    gap: 0 12px;
+}
+
+@media (max-width:779px) {
+   .interested
+   {
+  
+    transform: translateY(0%);
+   }
+   .footer_main
+   {
+       padding-top: 76px;
+       gap: 60px 94px;
+       justify-content: flex-start;
+   }
+   .footer_bottom
+   {
+        margin-top: 63px;
+   }
+    
+}
+@media (max-width:699px) {
+.interested
+{
+    text-align: center;
+    flex-direction: column;
+    gap: 20px 0;
+    padding: 76px 20px;
+    
+    &_title
+    {
+        padding: 0 24px;
+        font-size: 34px;
+    }
+}
+.footer_box
+{
+    width: 107px;
+}
+.footer_bottom
+{
+     margin-top: 68px;
+}
+     
+ }

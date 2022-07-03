@@ -1,0 +1,122 @@
+.plan
+{
+    &_title
+    {
+        font-weight: 700;
+        font-size: 60px;
+        color: $color--title;
+        text-align: center;
+
+    }
+    &_box
+    {
+        margin-top: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 45px;
+    }
+    &_crad
+    {
+        flex-basis: 363px;
+        text-align: center;
+        font-family: $font--text;
+        background: rgba(236, 235, 255, 0.3);
+        border-radius: 2px;
+        padding: 46px 0;
+        
+
+        &--detail
+        {
+            font-weight: 400;
+            font-size: 18px;
+        }
+        &--title
+        {
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 50px;
+            color: $color--title;
+        }
+        &--list
+        {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px 0;
+        }
+
+    }
+}
+
+.btn_card
+{
+    margin-top: 40px;
+}
+
+.plan_crad:nth-child(2)
+{ box-sizing: border-box;
+    background: #6C63FF;
+    padding: 70px 0;
+    color: rgba(255, 255, 255, 0.8);
+   
+}
+.plan_crad--detail
+{
+    color: white;
+}
+.card_color
+{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+
+}
+.color_white
+{
+    color: white !important;
+}
+.color_black
+{
+    color: black;
+
+}
+.card_size
+{
+    font-size: 18px;
+
+}
+.plan_crad--detail
+{
+    color: #717082;
+
+}
+.btn-bgwhite
+{
+    background: #FFFFFF;
+}
+
+@media (max-width:768px) {
+    .plan_box
+    {
+        flex-direction: column;
+        gap: 45px 0;
+    }
+    .plan_crad
+    {
+        width: 100%;
+      
+    }
+     
+ }
+ @media (max-width:568px) 
+ {
+   .plan_title
+   {
+       font-size: 34px;
+   }
+   .plan_crad--title
+   {
+    font-size: 40px;
+   }
+     
+ }

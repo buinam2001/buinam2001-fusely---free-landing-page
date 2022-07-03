@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fusely---free-landing-page</title>
+</head>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<body>
+
+    <div class="wapper">
+        <header class="container-header">
+            <div class="header_menu">
+                <img src="./img/Logo.png" alt="logo" class="header_menu--logo">
+                <!-- header_menu--reposive -->
+                <ul class="header_menu--list ">
+                    <li class="list_item">
+                        <a href="#" class="item_link">Home</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#" class="item_link">Features</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#" class="item_link">Pricing</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#" class="item_link">Blog</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#" class="item_link">Contact</a>
+                    </li> 
+                    <li class="header_menu--auth d-none">
+                        <a href="#" class="auth_btn--login">Log in</a>
+                        <a href="#" class="auth_btn--get btn_primary">Get Started</a>
+                    </li>
+                                     
+                </ul>
+                <!-- menu_auth--reposive -->
+                <div class="header_menu--auth d-none_r ">
+                    <a href="#" class="auth_btn--login">Log in</a>
+                    <a href="#" class="auth_btn--get btn_primary">Get Started</a>
+                </div>
+                <div class="menu_reponsive" onclick="handletongle()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="menu_close" onclick="handleclose()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </header>
+
+        <div id="display">
+        <main>
+            <section class="hero container-main">
+                <div class="hero_content">
+                    <h1 class="hero_title">
+                        Let’s get  fusely  together
+                    </h1>
+                    <p class="hero_text">
+                        Outcome-centered product that reduce churn, optimize pricing,
+                        and grow your subscription business end-to-end.
+                    </p>
+                    <a href="#" class="hero_btn btn_primary">Get Started</a>
+                </div>
+                
+                    <img src="./img/Hero image.png" alt="hero-des" class="hero_img">
+             
+            </section>
+            <section class="box container-main">
+                <ul class="box_logo">
+                    <li class="box_logo--list">
+                        <img src="./img/binator logo.svg" alt="binator" class="logo_list--img">
+                    </li>
+                    <li class="box_logo--list">
+                        <img src="./img/buyme logo.svg" alt="buyme" class="logo_list--img">
+                    </li>
+                    <li class="box_logo--list">
+                        <img src="./img/loogipsum logo.svg" alt="loogipsum" class="logo_list--img">
+                    </li>
+                    <li class="box_logo--list">
+                        <img src="./img/umbrella logo.svg" alt="umbrella" class="logo_list--img">
+                    </li>
+                    <li class="box_logo--list">
+                        <img src="./img/square logo.svg" alt="square" class="logo_list--img">
+                    </li>
+                </ul>
+
+                <div class="box_des">
+                    <img class="box_des--img" src="./img/Section Image.png" alt="Section">
+                    <div class="box_des--content">
+                        <h2 class="des_content--title">
+                            Detailed Examination
+                        </h2>
+                        <p class="des_content--text">
+                            A daily dataset to keep you up to date on subscription market 
+                            trends and what's happening in your vertical.
+                        </p>
+                        <a href="#" class="btn_learn--more btn--more">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+                <div class="box_des">
+                    <img class="box_des--img" src="./img//Section Image (1).png" alt="Section">
+                    <div class="box_des--content">
+                        <h2 class="des_content--title">
+                            Creative Solutions
+                        </h2>
+                        <p class="des_content--text">
+                            ACreativity is our second name. We're full of inventive
+                             ideas and we're happy to present them to you.
+                        </p>
+                        <a href="#" class="btn_learn--more btn--more">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+                <div class="box_des">
+                    <img class="box_des--img" src="./img/Section Image (2).png" alt="Section">
+                    <div class="box_des--content">
+                        <h2 class="des_content--title">
+                            Professional Team
+                        </h2>
+                        <p class="des_content--text">
+                            Well, obviously, we're professionals. 
+                            Don't hesitate - get to know us better.
+                        </p>
+                        <a href="#" class="btn_learn--more btn--more">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+
+                <div class="plan">
+                    <h2 class="plan_title">Choose your plan</h2>
+                    <div class="plan_box">
+                        <div class="plan_crad">
+                            <p class="plan_crad--detail">
+                                Starter
+                            </p>
+                            <h3 class="plan_crad--title">
+                                Free
+                            </h3>
+                            <ul class="plan_crad--list">
+                                <li class="crad_list--item">
+                                    Dashboard
+                                </li>
+                                <li class="crad_list--item">
+                                    Limited Support
+                                </li>
+                                <li class="crad_list--item">
+                                    Forever free
+                                </li>
+                            </ul>
+                            <a href="#" class="btn_border btn_card">Get Started</a>
+                        </div>
+                        <div class="plan_crad">
+                            <p class="plan_crad--detail color_white">
+                                Premium
+                            </p>
+                            <h3 class="plan_crad--title color_white">
+                                $29<span class="card_color">/month</span> 
+                            </h3>
+                            <ul class="plan_crad--list">
+                                <li class="crad_list--item">
+                                    Dashboard
+                                </li>
+                                <li class="crad_list--item">
+                                    Limited Support
+                                </li>
+                                <li class="crad_list--item">
+                                    Forever free
+                                </li>
+                            </ul>
+                            <a href="#" class="btn_border btn_card btn-bgwhite">Get Started</a>
+                        </div>
+                        <div class="plan_crad">
+                            <p class="plan_crad--detail">
+                                Starter
+                            </p>
+                            <h3 class="plan_crad--title">
+                                $49<span class="card_size">/month</span> 
+                            </h3>
+                            <ul class="plan_crad--list">
+                                <li class="crad_list--item">
+                                    Dashboard
+                                </li>
+                                <li class="crad_list--item">
+                                    Limited Support
+                                </li>
+                                <li class="crad_list--item">
+                                    Forever free
+                                </li>
+                            </ul>
+                            <a href="#" class="btn_border btn_card">Get Started</a>
+                        </div>
+                    </div>
+             </div>
+
+             <div class="blog">
+                <div class="blog_top">
+                    <h2 class="blog_top--title">From our blog</h2>
+                    <a href="#" class="blog_top--btn btn_border">View all</a>
+                </div>
+                <div class="blog_main">
+                    <div class="blog_main--card">
+                       <img src="./img/Rectangle 11.png" alt="" class="main_card--img">
+                       <div class="main_card--content">
+                           <h3 class="card--content--title">What’s Fusely?</h3>
+                           <p class="card--content--text">
+                            A brand new company, created for everyone. This article will 
+                            help you understand what "fusely" stands for.
+                           </p>
+                         <a href="#" class="card_content--btn btn-table ">Read more</a>
+
+                        </div>
+                        <a href="#" class="card_content--btn btn-pc ">Read more</a>
+                    </div>
+                    <div class="blog_main--card">
+                        <img src="./img/Rectangle 11 (1).png" alt="" class="main_card--img">
+                        <div class="main_card--content">
+                            <h3 class="card--content--title">Introducing Fusely Engage</h3>
+                            <p class="card--content--text">
+                                We’re happy to announce the Fusely Engage. The first growth automation
+                                 platform designed for the digital interactions.
+                            </p>
+                            <a href="#" class="card_content--btn btn-table">Read more</a>
+
+                        </div>
+                        <a href="#" class="card_content--btn btn-pc">Read more</a>
+                     </div>
+                     <div class="blog_main--card">
+                        <img src="./img/Rectangle 11 (2).png" alt="" class="main_card--img">
+                        <div class="main_card--content">
+                            <h3 class="card--content--title">Premium vs Enterprise plan</h3>
+                            <p class="card--content--text">
+                                Let’s compare our most popular plans: Premium and Enterprise. 
+                                This article will help you decide which one will
+                                 be better for your needs.  
+                            </p>
+                            <a href="#" class="card_content--btn btn-table">Read more</a>
+
+                        </div>
+                        <a href="#" class="card_content--btn btn-pc">Read more</a>
+                     </div>
+                </div>
+             </div> 
+                
+            </section>      
+        </main>
+        
+        <div class="interested">
+                <h2 class="interested_title">
+                    Interested in getting fusely?
+                </h2>
+                <a href="#" class="interested_btn">Let’s talk</a>
+
+        </div>
+
+
+        <footer class="footer">
+
+            <div class="footer_main container-main">
+                <div class="footer_box">
+                    <h4 class="footer_box--title">Product</h4>
+                    <ul class="footer_box--item">
+                        <li class="footer_list">
+                            How it works
+                        </li>
+                        <li class="footer_list">
+                            Features
+                        </li>
+                        <li class="footer_list">
+                            Pricing
+                        </li>
+                        <li class="footer_list">
+                            FAQ
+                        </li>
+                        <li class="footer_list">
+                            Download
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_box">
+                    <h4 class="footer_box--title">Company</h4>
+                    <ul class="footer_box--item">
+                        <li class="footer_list">
+                            About
+                        </li>
+                        <li class="footer_list">
+                            Blog
+                        </li>
+                        <li class="footer_list">
+                            Partnership
+                        </li>
+                        <li class="footer_list">
+                            Terms of use
+                        </li>
+                        <li class="footer_list">
+                            Privacy policy
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_box">
+                    <h4 class="footer_box--title">Support</h4>
+                    <ul class="footer_box--item">
+                        <li class="footer_list">
+                            Help center
+                        </li>
+                        <li class="footer_list">
+                            Contact us
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="footer_box">
+                    <h4 class="footer_box--title">Get in touch</h4>
+                    <ul class="footer_box--item footer-d">
+                        <li class="footer_list">
+                            <img src="./img/Social media icon.png" alt="" class="footer_list--img">
+                        </li>
+                        <li class="footer_list">
+                            <img src="./img/Social media icon (1).png" alt="" class="footer_list--img">
+                        </li>
+                        <li class="footer_list">
+                            <img src="./img/Social media icon (2).png" alt="" class="footer_list--img">
+                        </li>
+                       
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer_bottom container-header">
+                <img src="./img/Logo (1).png" alt="" class="footer_bottom--logo">
+                <p class="footer_bottom--text">© Fusely 2021. All rights reserved.</p>
+            </div>
+
+
+
+        </footer>
+    </div>
+</div>
+</body>
+<script src="./js/index.js"></script>
+</html>

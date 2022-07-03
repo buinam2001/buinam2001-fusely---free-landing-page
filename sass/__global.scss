@@ -1,0 +1,82 @@
+
+body
+{
+   
+   background-color: white;
+}
+.warper
+{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container-header
+{
+    font-family: $font--text;
+    max-width: 1320px;
+    padding:0 40px;
+    margin: 0 auto;
+}
+.container-main
+{
+    max-width: 1205px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.btn_primary
+{
+   
+    padding: 16px 30px;
+    background: #6C63FF;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
+.btn_border
+{
+    display: inline-block;
+    padding: 16px 30px;
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    color: #6C63FF;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn--more
+{
+    font-weight: 600;
+    font-size: 18px;
+    color: $color--title;
+    font-family: $font--text;
+    position: relative;
+   
+}
+
+.btn--more::after
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: #6C63FF;
+    opacity: 0.2;
+}
+.card_content--btn
+{
+    position: relative;
+}
+.card_content--btn::before
+{
+    content: "";
+    position: absolute;
+    width: 95px;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: #6C63FF;
+    opacity: 0.3;
+   
+}
